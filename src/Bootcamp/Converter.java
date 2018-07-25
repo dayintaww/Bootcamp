@@ -285,6 +285,7 @@ public class Converter {
      * Fungsi untuk mengkonversi bilangan biner menjadi bilangan oktal
      * @param bin inputan berupa bilangan biner dengan tipe data String
      * @return  hasil konversi yaitu bilangan oktal dengan tipe data String
+     * Membuat objek dari kelas Converter untuk memanggil method binerToDes dan desToOktal
      */
     public String binerToOktal(String bin) {
         Converter c = new Converter();
